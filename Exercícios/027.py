@@ -1,0 +1,5 @@
+nome = str(input('Digite o nome completo da pessoa: '))
+lista = nome.split(" ")
+print(f'Primeiro nome: {lista[0]}')
+tam = len(lista)
+print(f'Último nome: {lista[tam-1]}')
